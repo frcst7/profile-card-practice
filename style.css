@@ -1,0 +1,153 @@
+/* google-font */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Courier, monospace;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    max-width: 370px;
+    box-shadow: 0 5px 10px solid rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    padding: 25px;
+}
+
+.image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: blue;
+    padding: 3px;
+}
+
+.image .profile-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+.profile-card .text-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-data .name {
+    font-size: 22px;
+    font-weight: 900;
+}
+.text-data .job {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profile-card .media-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.media-buttons .link {
+    font-size: 18px;
+    background-color: #4070f4;
+    margin: 0 8px;
+    width: 34px;
+    height: 34px;
+    text-decoration: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.media-buttons .link.ig {
+    background-color: #e1306c;
+}
+.media-buttons .link.fb {
+    background-color: #4257b2;
+}
+.media-buttons .link.tw {
+    background-color: #1da1f2;
+}
+.media-buttons .link.yt {
+    background-color: #ff0000;
+}
+
+.profile-card .buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.buttons .button {
+    font-size: 15px;
+    border-radius: 24px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background-color: #4070f4;
+    padding: 8px 24px;
+    margin: 0 10px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    transition: all 0.4 ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.4 ease;
+    -ms-transition: all 0.4 ease;
+    -o-transition: all 0.4 ease;
+}
+
+.buttons .button:hover {
+    background-color: #0e4bf1;
+}
+
+.profile-card .analytics {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.analytics .data {
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-transform: capitalize;
+    padding: 0 20px;
+    border-right: 2px solid #e7e7e7;
+}
+
+.analytics .data:nth-child(3) {
+    border: none;
+}
